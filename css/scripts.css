@@ -44,6 +44,7 @@ body{
 
 .five{
   text-align: center;
+  background-color: white;
 }
 .six{
   background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
@@ -68,12 +69,18 @@ body{
 }
 .area-input{
   width: 500px;
+  background-color: transparent;
+  color: white;
 }
 .column{
   margin-left: 10px;
+  border: 2px;
+  font-weight: bold;
 }
 .message-area{
   width: 1000px;
+  background-color: transparent;
+  color: white;
 }
 .work{
   position: absolute;
@@ -99,4 +106,8 @@ body{
 }
 .p-text, .p-text1, .p-text2{
   display: none;
+}
+::placeholder{
+  color: white;
+  font-weight: 1px;
 }
