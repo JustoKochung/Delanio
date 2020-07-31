@@ -60,6 +60,7 @@ body{
 }
 .submit{
   padding-left: 50%;
+  width: 30px;
 }
 #submit-part{
   font-size: large;
@@ -95,9 +96,6 @@ body{
   background-color: white;
   margin: 0px 10px;
   display: none;
-  color: aqua;
-  font-size: 16px;
-  padding: 16px 32px;
 }
 .seven{
   background-color: white;
@@ -118,21 +116,9 @@ body{
 }
 .card{
   position: relative;
-  width: 50%;
 }
-.middle{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.card:hover .picture{
-  opacity: 0.3;
-}
-.card:hover .middle {
-  opacity: 1;
+.picture{
+  background: white;
+  color: white;
+  opacity: ;
 }
