@@ -77,3 +77,13 @@ body{
   font-weight: bold;
   font-size: 20px;
 }
+.seven{
+  background-color: white;
+}
+.footer-text{
+  text-align: center;
+  margin-top: 20px;
+}
+.col{
+  width: 12.5%;
+}
