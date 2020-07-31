@@ -1,3 +1,6 @@
+h1, h2, h5{
+  font-weight: bold;
+}
 .one{
   text-align: center;
   background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg);
@@ -17,6 +20,9 @@
 .four{
   background-color: white;
   text-align: center;
+}
+.col-lg-{
+  width: 33.33%;
 }
 
 
