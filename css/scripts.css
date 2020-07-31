@@ -1,0 +1,52 @@
+.one{
+  background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg);
+}
+
+.two{
+  background-color: white;
+  text-align: center;
+}
+.three{
+  text-align: center;
+  background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
+}
+.services{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.six{
+  background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
+  color: white;
+}
+.contact-us{
+  color: white;
+  padding-left: 40%;
+}
+.submit{
+  padding-left: 50%;
+}
+#submit-part{
+  font-size: large;
+  color: white;
+}
+.row-area{
+  margin-top: 10px;
+}
+.area-input{
+  width: 500px;
+}
+.column{
+  margin-left: 10px;
+}
+.message-area{
+  width: 1000px;
+}
