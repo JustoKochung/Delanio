@@ -88,3 +88,6 @@ body{
 .col{
   width: 12.5%;
 }
+.p-text, .p-text1, .p-text2{
+  display: none;
+}
