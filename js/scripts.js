@@ -9,4 +9,10 @@ $(document).ready(function(){
   $(".design2").click(function(){
     $(".p-text2").toggle();
   });
+  $(".work").hover(function(){
+    $(this).find(".work").show();
+  });
+  $(".work").mouseout(function(){
+    $("work").find(".work").hide();
+  });
 });
