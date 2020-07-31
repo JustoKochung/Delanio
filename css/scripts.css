@@ -63,6 +63,8 @@ body{
 }
 #submit-part{
   font-size: large;
+  background-color: transparent;
+  color: white;
 }
 .row-area{
   margin-top: 10px;
