@@ -45,6 +45,7 @@ body{
 .five{
   text-align: center;
   background-color: white;
+  box-sizing: border-box;
 }
 .six{
   background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
@@ -75,7 +76,7 @@ body{
   background-color: transparent;
   color: white;
 }
-.column{
+.column-wrap{
   margin-left: 10px;
   border: 2px;
   font-weight: bold;
@@ -95,7 +96,6 @@ body{
   border-radius: 40%;
   background-color: white;
   margin: 0px 10px;
-  display: none;
 }
 .seven{
   background-color: white;
@@ -116,9 +116,60 @@ body{
 }
 .card{
   position: relative;
+  text-align: center;
 }
-.picture{
+.para{
+  position: absolute;
+  text-align: center;
+  color: blue;
   background: white;
+  visibility: hidden;
+  opacity: 0;
+}
+.text{
+  background-color: #4caf50;
   color: white;
-  opacity: ;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.middle{
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image-eight{
+  opacity: 1;
+  display: block;
+  transition: ease 0.5s;
+  backface-visibility: hidden;
+  height: 200px;
+  width: auto;
+}
+.opac{
+  position: relative;
+  padding: 0 5px 5px;
+  box-sizing: border-box;
+}
+.opac:hover .image-eight{
+  opacity: 0.3;
+}
+.opac:hover .middle{
+  opacity: 1;
+}
+.port{
+  margin-top: 4%;
+}
+.section-five, .section-five2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.section-five2{
+
 }
